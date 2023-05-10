@@ -1,19 +1,40 @@
-package ArraysPractice;
+class FrequencyTracker {
+private Map<Integer, Integer> freqMap; // map of number to frequency
+private Map<Integer, Integer> countMap; // map of frequency to count
 
+public FrequencyTracker() {
+        freqMap = new HashMap<>();
+        countMap = new HashMap<>();
+        }
 
+public void add(int number) {
+        int freq = freqMap.getOrDefault(number, 0);
+        int newFreq = freq + 1;
+        freqMap.put(number, newFreq);
+        countMap.put(newFreq, countMap.getOrDefault(newFreq, 0) + 1);
+        if (freq > 0) {
+        countMap.put(freq, countMap.get(freq) - 1);
+        if (countMap.get(freq) == 0) {
+        countMap.remove(freq);
+        }
+        }
+        }
 
-import java.util.PriorityQueue;
-import java.util.Queue;
+public void deleteOne(int number) {
+        int freq = freqMap.getOrDefault(number, 0);
+        if (freq > 0) {
+        freqMap.put(number, freq - 1);
+        countMap.put(freq, countMap.get(freq) - 1);
+        if (countMap.get(freq) == 0) {
+        countMap.remove(freq);
+        }
+        if (freq > 1) {
+        countMap.put(freq - 1, countMap.getOrDefault(freq - 1, 0) + 1);
+        }
+        }
+        }
 
-public class FindKthSmallestInArray {
-    public static void main(String[] args) {
-        int arr[] = new int []{7, 10, 4, 3, 20, 15};
-        System.out.println(kthSmallest(arr));
-    }
-    public static int kthSmallest(int arr[],int k){
-        Queue<Integer> ob = new PriorityQueue<Integer>();
-        if(ob.size() == k)
-
-
-    }
-}
+public boolean hasFrequency(int frequency) {
+        return countMap.containsKey(frequency);
+        }
+        }
