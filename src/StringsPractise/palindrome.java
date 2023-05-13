@@ -1,8 +1,6 @@
 package StringsPractise;
 
 public class palindrome {
-
-
         int isPalindrome(String S) {
             boolean flag = true;
             for(int i=0;i<S.length()/2;i++){
