@@ -4,7 +4,7 @@
     <list default="true" id="fc177ed4-9798-47b0-ac98-b4868b5085fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ArraysPractice/FindKthSmallestInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysPractice/FindKthSmallestInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringsPractise/palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringsPractise/palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysPractice/findklargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysPractice/findklargest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +49,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.asdf">
-    <configuration name="FindMInMaxArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysPractice.FindMInMaxArray" />
+  <component name="RunManager" selected="Application.SortingAlgo">
+    <configuration name="FindKthSmallestInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysPractice.FindKthSmallestInArray" />
       <module name="RunningClass" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArrayOrString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysPractice.ReverseArrayOrString" />
+    <configuration name="SortingAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysPractice.SortingAlgo" />
       <module name="RunningClass" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingAlgo" />
+        <item itemvalue="Application.FindKthSmallestInArray" />
         <item itemvalue="Application.asdf" />
         <item itemvalue="Application.arraycontrast" />
         <item itemvalue="Application.newpalindrome" />
-        <item itemvalue="Application.FindMInMaxArray" />
-        <item itemvalue="Application.ReverseArrayOrString" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +164,14 @@
       <workItem from="1683430982686" duration="1108000" />
       <workItem from="1683699386728" duration="2030000" />
       <workItem from="1683906545226" duration="2997000" />
-      <workItem from="1683950577367" duration="3574000" />
+      <workItem from="1683950577367" duration="5624000" />
+      <workItem from="1683969427761" duration="1564000" />
+      <workItem from="1684062961450" duration="6000" />
+      <workItem from="1684775839295" duration="31000" />
+      <workItem from="1685335837720" duration="1036000" />
+      <workItem from="1685338949718" duration="1006000" />
+      <workItem from="1685349849977" duration="1701000" />
+      <workItem from="1685591385443" duration="1344000" />
     </task>
     <servers />
   </component>

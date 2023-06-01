@@ -35,7 +35,7 @@ public class findklargest {
         int j =0;
         for(int i =0;i<n;i++){
             if(i >n2-1) {
-                arr[i] = reverse(nums[j])
+                arr[i] = reverse(nums[j]);
                         j++;
             }
             arr[i] = nums[i];
