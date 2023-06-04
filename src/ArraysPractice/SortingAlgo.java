@@ -2,7 +2,7 @@ package ArraysPractice;
 
 public class SortingAlgo {
     public static void main(String[] args) {
-        int arr[] = {38,29,56,10};
+        int arr[] = {38,29,56,10,15};
         sort(arr,0,arr.length-1);
         for(int i:arr)
             System.out.print(i+" ");
@@ -25,7 +25,7 @@ public class SortingAlgo {
         for(int i=0;i<leftsize;i++){
             leftArray[i] = arr[i];
         }
-        for(int j=0;j<rightsize;j++){
+        for(int j=0;j<rightsize;++j){
             rightArray[j] = arr[j+middle+1];
         }
         int k =left;
@@ -34,13 +34,12 @@ public class SortingAlgo {
             if(leftArray[i]<= rightArray[j]){
                 arr[k] = leftArray[i];
                 i++;
-                k++;
             }
             else{
                 arr[k] = rightArray[j];
                 j++;
-                k++;
             }
+            k++;
         }
         while(i<leftsize){
             arr[k]=leftArray[i];
