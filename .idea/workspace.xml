@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc177ed4-9798-47b0-ac98-b4868b5085fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysPractice/linkedlistpractise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysPractice/linkedlistpractise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +172,9 @@
       <workItem from="1685591385443" duration="1344000" />
       <workItem from="1685638799012" duration="1038000" />
       <workItem from="1685765139189" duration="2904000" />
-      <workItem from="1685855942223" duration="6632000" />
+      <workItem from="1685855942223" duration="6697000" />
+      <workItem from="1685955370194" duration="2303000" />
+      <workItem from="1685960188737" duration="971000" />
     </task>
     <servers />
   </component>
