@@ -38,6 +38,6 @@ public class TreesPractise {
 //        Stack <TreeNode> stk = new Stack<TreeNode>();
 //        if(root == null) return ans;
 //        stk
-
+            return null;
     }
 }
