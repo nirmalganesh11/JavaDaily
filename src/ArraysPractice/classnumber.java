@@ -1,6 +1,7 @@
 package ArraysPractice;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class classnumber {
     public static void main(String[] args) {
@@ -109,6 +110,62 @@ public class classnumber {
 
 
     }
+
+    public static int findUinionOfTwoArrays(int arr[] ,int arr2[]){
+        int len1 = arr.length;
+        int len2 = arr.length;
+        int finalarray[] = new int [len1+len2];
+        HashSet<Integer> ob = new HashSet<Integer>();
+        for(int i:arr){
+            ob.add(i);
+        }
+        for(int j:arr2){
+
+            ob.add(j);
+        }
+        return ob.size();
+
+    }
+    public static int[] cyclicrotaion(int arr[]){
+        int n = arr.length;
+        int x = arr[n-1];
+        for(int i=0;i<n-2;i++){
+            arr[i+1] = arr[i];
+        }
+        arr[0] = x;
+        return arr;
+    }
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int rows= matrix.length;
+        int flag =0;
+        for(int i=0;i<rows;i++){
+            if(binarySearchArray(matrix[i],target))
+                flag=1;
+        }
+        if(flag ==0)
+            return false;
+        return true;
+    }
+    public boolean binarySearchArray(int arr[],int target){
+        int l=0;
+        int h = arr.length-1;
+        int middle =(l+h)/2;
+        while(l<h){
+            if(arr[middle]>target){
+                h = middle-1;
+            }
+            if(arr[middle]== target){
+                return true;
+            }
+            else{
+                l = middle +1;
+            }
+            middle = (l+h)/2;
+        }
+        return false;
+    }
+
+
 
 
 
