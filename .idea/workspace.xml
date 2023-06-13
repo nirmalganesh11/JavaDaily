@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc177ed4-9798-47b0-ac98-b4868b5085fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RunningClass/ArraysPractice/classnumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RunningClass/ArraysPractice/classnumber.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +48,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.classnumber">
-    <configuration name="SortingAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysPractice.SortingAlgo" />
+  <component name="RunManager" selected="Application.countduplicates">
+    <configuration name="StringBuilderTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsPractise.StringBuilderTry" />
       <module name="RunningClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysPractice.*" />
+          <option name="PATTERN" value="StringsPractise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,6 +68,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ArraysPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="countduplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringsPractise.countduplicates" />
+      <module name="RunningClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StringsPractise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,26 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thirdjune" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysPractice.thirdjune" />
-      <module name="RunningClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.countduplicates" />
+        <item itemvalue="Application.StringBuilderTry" />
         <item itemvalue="Application.classnumber" />
         <item itemvalue="Application.funwithjava" />
         <item itemvalue="Application.linkedlistpractise" />
-        <item itemvalue="Application.thirdjune" />
-        <item itemvalue="Application.SortingAlgo" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +178,9 @@
       <workItem from="1685960188737" duration="1604000" />
       <workItem from="1686023946129" duration="1722000" />
       <workItem from="1686039548656" duration="6814000" />
+      <workItem from="1686371000096" duration="3346000" />
+      <workItem from="1686564771805" duration="893000" />
+      <workItem from="1686695183957" duration="461000" />
     </task>
     <servers />
   </component>
