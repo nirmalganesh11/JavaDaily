@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fc177ed4-9798-47b0-ac98-b4868b5085fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RunningClass/StringsPractise/countduplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RunningClass/StringsPractise/countduplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringsPractise/countduplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringsPractise/countduplicates.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +47,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.stringlonges">
-    <configuration name="StringBuilderTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsPractise.StringBuilderTry" />
-      <module name="RunningClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringsPractise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="classnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysPractice.classnumber" />
+  <component name="RunManager" selected="Application.twentythjunearrays">
+    <configuration name="averageofnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysPractice.averageofnumber" />
       <module name="RunningClass" />
       <extension name="coverage">
         <pattern>
@@ -76,12 +61,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="countduplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsPractise.countduplicates" />
+    <configuration name="newarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="wtn.newarray" />
       <module name="RunningClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringsPractise.*" />
+          <option name="PATTERN" value="wtn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="priorityqueuesorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysPractice.priorityqueuesorting" />
+      <module name="RunningClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stringrotations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsPractise.stringrotations" />
+    <configuration name="twentythjunearrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysPractice.twentythjunearrays" />
       <module name="RunningClass" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringsPractise.*" />
+          <option name="PATTERN" value="ArraysPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.twentythjunearrays" />
+        <item itemvalue="Application.newarray" />
+        <item itemvalue="Application.averageofnumber" />
+        <item itemvalue="Application.priorityqueuesorting" />
         <item itemvalue="Application.stringlonges" />
-        <item itemvalue="Application.stringrotations" />
-        <item itemvalue="Application.countduplicates" />
-        <item itemvalue="Application.StringBuilderTry" />
-        <item itemvalue="Application.classnumber" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +180,11 @@
       <workItem from="1686371000096" duration="3346000" />
       <workItem from="1686564771805" duration="893000" />
       <workItem from="1686695183957" duration="3734000" />
-      <workItem from="1686718800701" duration="1033000" />
+      <workItem from="1686718800701" duration="1786000" />
+      <workItem from="1686736303626" duration="3080000" />
+      <workItem from="1686908598363" duration="376000" />
+      <workItem from="1687147744914" duration="7071000" />
+      <workItem from="1687278610853" duration="3186000" />
     </task>
     <servers />
   </component>
