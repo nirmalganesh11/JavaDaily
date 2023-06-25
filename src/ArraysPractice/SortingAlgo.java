@@ -1,9 +1,16 @@
 package ArraysPractice;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class SortingAlgo {
     public static void main(String[] args) {
         int arr[] = {38,29,56,10,15};
         sort(arr,0,arr.length-1);
+        String s ="";
+        StringBuilder sb = new StringBuilder(s);
+        sb.reverse().toString();
+        //s.equ
         for(int i:arr)
             System.out.print(i+" ");
 
@@ -52,4 +59,5 @@ public class SortingAlgo {
             k++;
         }
     }
+
 }

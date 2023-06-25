@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc177ed4-9798-47b0-ac98-b4868b5085fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RunningClass/ArraysPractice/SortingAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RunningClass/ArraysPractice/SortingAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArraysPractice/SortingAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysPractice/SortingAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +49,39 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.twentythjunearrays">
-    <configuration name="averageofnumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysPractice.averageofnumber" />
+  <component name="RunManager" selected="Application.mergesortlinkedlist">
+    <configuration name="Matrixspiral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysPractice.Matrixspiral" />
       <module name="RunningClass" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ArraysPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rohithpractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysPractice.Rohithpractice" />
+      <module name="RunningClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArraysPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mergesortlinkedlist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.mergesortlinkedlist" />
+      <module name="RunningClass" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,32 +95,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="wtn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="priorityqueuesorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysPractice.priorityqueuesorting" />
-      <module name="RunningClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArraysPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="stringlonges" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringsPractise.stringlonges" />
-      <module name="RunningClass" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringsPractise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mergesortlinkedlist" />
+        <item itemvalue="Application.Rohithpractice" />
+        <item itemvalue="Application.Matrixspiral" />
         <item itemvalue="Application.twentythjunearrays" />
         <item itemvalue="Application.newarray" />
-        <item itemvalue="Application.averageofnumber" />
-        <item itemvalue="Application.priorityqueuesorting" />
-        <item itemvalue="Application.stringlonges" />
       </list>
     </recent_temporary>
   </component>
@@ -185,6 +187,10 @@
       <workItem from="1686908598363" duration="376000" />
       <workItem from="1687147744914" duration="7071000" />
       <workItem from="1687278610853" duration="3186000" />
+      <workItem from="1687282564147" duration="88000" />
+      <workItem from="1687319536891" duration="5210000" />
+      <workItem from="1687405478699" duration="5891000" />
+      <workItem from="1687490758728" duration="2237000" />
     </task>
     <servers />
   </component>
