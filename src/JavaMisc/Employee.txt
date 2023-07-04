@@ -1,0 +1,5 @@
+ID,first_name,last_name,joining_date,salary
+100,Jayanth,Sanikommu,15/9/2021,20000
+101,Prasad,Bathini,10/9/2007,60000
+102,Reddi,Bukke,5/6/2008,100000
+103,Joe, Smith,8/1/2010,300000

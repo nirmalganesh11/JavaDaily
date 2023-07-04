@@ -25,6 +25,7 @@ public class Main {
                 System.out.println("add a number");
                 int a = sc.nextInt();
                 ob.add(a);
+
             }
             if(t==2)
                     System.out.println(ob.toString());
